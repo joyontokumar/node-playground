@@ -1,6 +1,4 @@
 # Environment variables and secrets (NEVER commit these)
-.env
-.env.local
 .env.*.local
 *.env
 
@@ -21,7 +19,6 @@ bower_components/
 jspm_packages/
 
 # IDEs and text editors
-.vscode/
 .idea/
 *.suo
 *.ntvs*
@@ -31,3 +28,4 @@ jspm_packages/
 
 # Custom
 .tmp
+config.bat
